@@ -1,0 +1,52 @@
+body {
+  background-color: #020a2c;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  border-radius: 15px;
+  font-family: cursive;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+input {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  height: 10%;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+}
+
+input::placeholder {
+  color: red;
+  font-size: normal;
+  font-family: cursive;
+}
+
+.boton {
+  padding: 10px;
+  width: fit-content;
+  height: 40px;
+  border: 2px solid darkblue;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.resultado {
+  font-size: 2em;
+  color: red;
+  margin-top: 40px;
+}
